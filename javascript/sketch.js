@@ -1,12 +1,20 @@
 /*Javascript file used for Etch-a-Sketch*/
-var rows = prompt("Enter number of rows", 20);
-var cols = prompt("Enter number of columns", 20);
+//rows = prompt("Enter number of rows", 20);
+//cols = prompt("Enter number of columns", 20);
+var rows = 20;
+var cols = 20;
 
-$(document).ready(function(){
+$(document).ready(function()
+{
     createGrid();
+    $(".box").hover(
+    function() {
+        $(this).css('background-color', 'red')
+    });
 });
 
-function createGrid(){
+function createGrid()
+{
     /*gives default value if user does not enter anything*/
     if (rows === null) {
         rows = 10;
@@ -23,6 +31,6 @@ function createGrid(){
     /*adds correct number or elements to each row*/
     for(i=0; i<cols; i++)
     {
-        $('tr').append('<td></td>');
+        $('tr').append('<td class="box"></td>');
     }
-}; 
+};

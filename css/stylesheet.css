@@ -3,8 +3,14 @@ body{
     background: #CCFFFF;
 }
 
-td{
+.box{
     background: pink;
     width:10px;
     height:10px;
+}
+
+#wrapper{
+    float:center;
+    padding-left:400px;
+    padding-top: 10px;
 }
