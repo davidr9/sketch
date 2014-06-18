@@ -1,1 +1,10 @@
 /*External stylesheet for Etch-a-Sketch*/
+body{
+    background: #CCFFFF;
+}
+
+td{
+    background: pink;
+    width:10px;
+    height:10px;
+}
