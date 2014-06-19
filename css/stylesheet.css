@@ -1,6 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Unkempt:400,700|Macondo+Swash+Caps);
 /*External stylesheet for Etch-a-Sketch*/
 body{
     background: #CCFFFF;
+}
+header{
+    padding-left: 500px;
+    font-size: 50px;
+    font-family: 'Unkempt', cursive, sans-serif;
+    font-weight: bold;
+    
 }
 
 .box{
@@ -8,9 +16,47 @@ body{
     width:10px;
     height:10px;
 }
+#buttons{
+    float:left;
+    list-style: none;
+    padding-left: 415px;
+    
+}
+#clear{
+    background: #D1D1EE;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    float: left;
+    font-weight:bold;
+}
+
+#random{
+    background: #D1D1EE;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    float: right;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#size{
+    background: #D1D1EE;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    float: left;
+    margin-left: 100px;
+    font-weight: bold;
+}
 
 #wrapper{
     float:center;
     padding-left:400px;
     padding-top: 10px;
+    margin-bottom: 10px;
 }
