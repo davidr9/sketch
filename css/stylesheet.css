@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Unkempt:400,700|Macondo+Swash+Caps);
 /*External stylesheet for Etch-a-Sketch*/
 body{
-    background: #CCFFFF;
+    background: #FF0000;
 }
 header{
     padding-left: 480px;
@@ -10,7 +10,7 @@ header{
     font-weight: bold;
 }
 .box{
-    background: pink;
+    background: white;
     width:20px;
     height:20px;
 }
@@ -54,7 +54,7 @@ table{
 }
 #wrapper{
     float:center;
-    padding-left:400px;
+    padding-left:430px;
     padding-top: 10px;
     margin-bottom: 10px;
 }

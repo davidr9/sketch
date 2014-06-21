@@ -1,7 +1,7 @@
 /*Javascript file used for Etch-a-Sketch*/
 var rows = 20;
 var cols = 20;
-var col = 'red';
+var col = 'black';
 /* calls function when html is finished downloading*/
 $(document).ready(function()
 {
@@ -15,7 +15,10 @@ $(document).ready(function()
 /*Picks a random color to when hovering over the box */
 function random() {
     $('#random').click(function(){
-        color = Math.floor(Math.random()*16777215).toString(16);
+        var colors = ["red", "orange", "yellow", "green", "blue", "purple", "pink", "brown", "black"];
+        var ranNum = Math.floor((Math.random() * 8) + 1);
+        var color = colors[ranNum];
+        console.log(color);
         movement(color);
     });
 }
